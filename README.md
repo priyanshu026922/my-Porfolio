@@ -4,7 +4,7 @@ A clean, modern, and responsive developer portfolio website built with **React**
 
 ## 🚀 Live Demo
 
-🔗 [Visit Portfolio]([https://your-portfolio-link.com](https://priyanshu-portfolio-m8s0.onrender.com/))
+🔗 [Visit Portfolio](https://priyanshu-portfolio-m8s0.onrender.com/)
 
 ## 📸 Features
 
