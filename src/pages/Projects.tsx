@@ -8,7 +8,7 @@ const Projects = () => {
   description: 'A developer-focused blogging platform for writing, reading, and sharing technical content. Features secure JWT auth, markdown support, and edge deployment for blazing-fast performance.',
   image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop',
   technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'Prisma', 'PostgreSQL', 'Cloudflare Workers'],
-  liveUrl: 'TBD',
+  liveUrl: 'https://codenotes-mwm7.onrender.com/',
   githubUrl: 'https://github.com/priyanshu026922/CodeNotes'
 },
     {
@@ -16,8 +16,8 @@ const Projects = () => {
   description: 'A sleek and modern developer portfolio built with React and Tailwind CSS. Features project showcases, skillset highlights, and smooth navigation with React Router and TypeScript.',
   image: 'https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop',
   technologies: ['React', 'React Router', 'Tailwind CSS', 'TypeScript', 'Lucide React'],
-  liveUrl: 'TBD', 
-  githubUrl: 'https://github.com/yourusername/portfolio'
+  liveUrl: 'https://priyanshu-portfolio-m8s0.onrender.com/', 
+  githubUrl: 'https://github.com/priyanshu026922/my-Porfolio'
 },
 
    {
@@ -25,7 +25,7 @@ const Projects = () => {
   description: 'A Chrome extension that uses AI to summarize news, blogs, and research articles with one click. Lightweight, fast, and powered by Google\'s Gemini API for smart insights.',
   image: 'https://images.pexels.com/photos/6476584/pexels-photo-6476584.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop',
   technologies: ['HTML', 'CSS', 'JavaScript', 'Gemini API', 'Chrome Extensions'],
-  liveUrl: 'TBD',
+  liveUrl: '/',
   githubUrl: 'https://github.com/priyanshu026922/SummAIze'
 },
 

@@ -10,7 +10,7 @@ const Header = () => {
   const handleResumeDownload = () => {
     
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; 
+    link.href = '/my-new-resume.pdf'; 
     link.download = 'Priyanshu Ranjan.pdf';
     document.body.appendChild(link);
     link.click();
