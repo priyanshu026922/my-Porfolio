@@ -12,12 +12,30 @@ const Projects = () => {
   githubUrl: 'https://github.com/priyanshu026922/CodeNotes'
 },
     {
-  title: 'Personal Portfolio Website',
+  title: 'Portfolio Website',
   description: 'A sleek and modern developer portfolio built with React and Tailwind CSS. Features project showcases, skillset highlights, and smooth navigation with React Router and TypeScript.',
   image: 'https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop',
   technologies: ['React', 'React Router', 'Tailwind CSS', 'TypeScript', 'Lucide React'],
   liveUrl: 'https://priyanshu-portfolio-m8s0.onrender.com/', 
   githubUrl: 'https://github.com/priyanshu026922/my-Porfolio'
+},
+{
+  title: 'CloudIT , a secure file sharing platform',
+  description: 'CloudIt is a secure file sharing platform that allows users to upload, share, and manage files with ease. Built with modern web technologies, it provides a clean interface and robust functionality for file management.',
+  image: 'https://www.sedatasolutions.io/files/2018/04/What-is-Cloud-Storage.png',
+technologies: [
+    'React.js',
+    'Tailwind CSS',
+    'React Router',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'JWT',
+    'bcrypt',
+    'Cloudinary',
+  ],
+  liveUrl: '/',
+  githubUrl: 'https://github.com/priyanshu026922/CloudIT'
 },
 
    {
@@ -28,6 +46,25 @@ const Projects = () => {
   liveUrl: '/',
   githubUrl: 'https://github.com/priyanshu026922/SummAIze'
 },
+
+   
+{
+  title: 'Spam Classifier – Email/SMS Spam Detection System',
+  description: 'A machine learning-based spam detection system that classifies messages or emails as spam or not spam, leverages NLP techniques and trained models to ensure accurate predictions, providing a user-friendly web interface for testing and visualization.',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOM02lsT7CwR29RiPvT5wfeeLyBz7jHnadrg&s',
+  technologies: [
+    'Python',
+    'Scikit-learn',
+    'Pandas',
+    'NumPy',
+    'NLTK',
+    'TF-IDF Vectorizer',
+    'Naive Bayes Classifier'
+  ],
+  liveUrl: 'https://spam-classifier-ml.streamlit.app/',
+  githubUrl: 'https://github.com/priyanshu026922/Spam-Classifier'
+},
+
 
    
   ];

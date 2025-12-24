@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { ArrowRight, Code, Palette, Zap } from 'lucide-react';
 
 const Home = () => {
@@ -15,19 +14,19 @@ const Home = () => {
               Full Stack Developer passionate about creating beautiful, functional web applications
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/projects"
+              <a
+                href="/projects"
                 className="inline-flex items-center justify-center px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 View My Work
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-              <Link
-                to="/contact"
+              </a>
+              <a
+                href="/contact"
                 className="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors"
               >
                 Get In Touch
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -47,31 +46,31 @@ const Home = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 rounded-lg bg-white shadow-sm border border-gray-200">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Code className="h-8 w-8 text-blue-600" />
+            <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-blue-500 rounded-lg flex items-center justify-center mb-6">
+                <Code className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Development</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Development</h3>
               <p className="text-gray-600">
                 Building robust and scalable web applications with modern technologies
               </p>
             </div>
             
-            <div className="text-center p-6 rounded-lg bg-white shadow-sm border border-gray-200">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Palette className="h-8 w-8 text-green-600" />
+            <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-green-500 rounded-lg flex items-center justify-center mb-6">
+                <Palette className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Design</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Design</h3>
               <p className="text-gray-600">
                 Creating beautiful and intuitive user interfaces that users love
               </p>
             </div>
             
-            <div className="text-center p-6 rounded-lg bg-white shadow-sm border border-gray-200">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Zap className="h-8 w-8 text-purple-600" />
+            <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-purple-500 rounded-lg flex items-center justify-center mb-6">
+                <Zap className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Performance</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Performance</h3>
               <p className="text-gray-600">
                 Optimizing applications for speed, accessibility, and user experience
               </p>

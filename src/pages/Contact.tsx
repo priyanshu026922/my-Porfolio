@@ -69,7 +69,7 @@ const Contact = () => {
               Response Time
             </h3>
             <p className="text-gray-600">
-              I typically respond to emails within 24 hours. For urgent matters, feel free to call!
+              I typically respond to emails within 24 hours ,else feel free to call anytime!
             </p>
           </div>
         </div>
