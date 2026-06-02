@@ -23,6 +23,3 @@ package-lock.json
 *.sln
 *.sw?
 .env
-
-public/my-new-resume.pdf
-public/resume_priyanshu01.pdf
