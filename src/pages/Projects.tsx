@@ -11,13 +11,15 @@ const Projects = () => {
   liveUrl: 'https://codenotes-mwm7.onrender.com/',
   githubUrl: 'https://github.com/priyanshu026922/CodeNotes'
 },
-    {
-  title: 'Portfolio Website',
-  description: 'A sleek and modern developer portfolio built with React and Tailwind CSS. Features project showcases, skillset highlights, and smooth navigation with React Router and TypeScript.',
-  image: 'https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop',
-  technologies: ['React', 'React Router', 'Tailwind CSS', 'TypeScript', 'Lucide React'],
-  liveUrl: 'https://priyanshu-portfolio-m8s0.onrender.com/', 
-  githubUrl: 'https://github.com/priyanshu026922/my-Porfolio'
+   
+
+{
+  title: 'SyncSpace – Real-Time Collaborative Whiteboard',
+  description: 'A full-stack collaborative whiteboard where multiple users draw simultaneously on shared canvases with real-time sync. Features an AI diagram generator that converts natural language prompts into architecture diagrams directly on the canvas.',
+  image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop',
+  technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Rough.js', 'Groq AI', 'JWT'],
+   liveUrl: '/',
+  githubUrl: 'https://github.com/priyanshu026922/SyncSpace'
 },
 {
   title: 'CloudIT , a secure file sharing platform',
@@ -36,6 +38,14 @@ technologies: [
   ],
   liveUrl: '/',
   githubUrl: 'https://github.com/priyanshu026922/CloudIT'
+},
+ {
+  title: 'Portfolio Website',
+  description: 'A sleek and modern developer portfolio built with React and Tailwind CSS. Features project showcases, skillset highlights, and smooth navigation with React Router and TypeScript.',
+  image: 'https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop',
+  technologies: ['React', 'React Router', 'Tailwind CSS', 'TypeScript', 'Lucide React'],
+  liveUrl: 'https://priyanshu-portfolio-m8s0.onrender.com/', 
+  githubUrl: 'https://github.com/priyanshu026922/my-Porfolio'
 },
 
    {
